@@ -7,7 +7,6 @@
 	Delta  = 0.1;   kappa1 = 0.01;  kappa2 = 0.001; d = 0.05;
 	D1     = 0.33;  D2     = 0.04;  gamma1 = 0.003; gamma2 = 0.003;
 	tau1   = 0.05;  tau2   = 0.05;  tau3   = 0.05;
-	
 	params_initial = [Delta, kappa1, kappa2, d, D1, D2, ...
 	gamma1, gamma2, tau1, tau2, tau3];
 	lb = [0.05, 0.001, 0.00001, 0.001, 0.01, 0.001, ...
